@@ -34,7 +34,7 @@ function html() {
 
 function images() {
   return src('src/img/images/*')
-  .pipe(dest('dist'))
+  .pipe(dest('dist/img'))
 }
 
 function watchSass() {
